@@ -11,7 +11,7 @@
 @implementation HelloWorldService
 
 -(NSString *)generateGreeting:(NSString *)from {
-    return [NSString stringWithFormat:@"%@ says: Hello World!", from];
+    return [NSString stringWithFormat:@"%@ says: Hello Carthage World!", from];
 }
 
 @end
