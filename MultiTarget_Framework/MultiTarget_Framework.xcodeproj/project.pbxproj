@@ -13,8 +13,6 @@
 		015538A01C78500D00D3FE62 /* HelloWorldService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0155389D1C78500D00D3FE62 /* HelloWorldService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		015538A11C78500D00D3FE62 /* HelloWorldService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155389E1C78500D00D3FE62 /* HelloWorldService.m */; };
 		015538A21C78500D00D3FE62 /* HelloWorldService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155389E1C78500D00D3FE62 /* HelloWorldService.m */; };
-		5F17F09F8531EAC964C8788B /* Pods_MultiTarget_Framework_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426037EED1986A05FF966432 /* Pods_MultiTarget_Framework_tvOS.framework */; };
-		7EFF5E0AFF03F59B1D8D7C86 /* Pods_MultiTarget_Framework_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19CE76D009CDB05F16ED4B7 /* Pods_MultiTarget_Framework_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +22,6 @@
 		0155389A1C784EEB00D3FE62 /* MultiTarget_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTarget_Framework.h; sourceTree = "<group>"; };
 		0155389D1C78500D00D3FE62 /* HelloWorldService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldService.h; sourceTree = "<group>"; };
 		0155389E1C78500D00D3FE62 /* HelloWorldService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldService.m; sourceTree = "<group>"; };
-		106089783486BDC46AC4C6B4 /* Pods-MultiTarget_Framework_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTarget_Framework_iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MultiTarget_Framework_iOS/Pods-MultiTarget_Framework_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		19DC003667A94DD42A0078B3 /* Pods-MultiTarget_Framework_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTarget_Framework_tvOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MultiTarget_Framework_tvOS/Pods-MultiTarget_Framework_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		426037EED1986A05FF966432 /* Pods_MultiTarget_Framework_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTarget_Framework_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4773369E0DC249849BA44E77 /* Pods-MultiTarget_Framework_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTarget_Framework_tvOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MultiTarget_Framework_tvOS/Pods-MultiTarget_Framework_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		8A1D82A004315D0581AC74B6 /* Pods-MultiTarget_Framework_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTarget_Framework_iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MultiTarget_Framework_iOS/Pods-MultiTarget_Framework_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		F19CE76D009CDB05F16ED4B7 /* Pods_MultiTarget_Framework_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTarget_Framework_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EFF5E0AFF03F59B1D8D7C86 /* Pods_MultiTarget_Framework_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F17F09F8531EAC964C8788B /* Pods_MultiTarget_Framework_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +47,6 @@
 			children = (
 				015538981C784EEB00D3FE62 /* MultiTarget_Framework */,
 				015538811C784E6100D3FE62 /* Products */,
-				DDA4C4CF99D3E043CC138B93 /* Pods */,
 				AEC2C3D3FD2260AACF285401 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -85,21 +74,8 @@
 		AEC2C3D3FD2260AACF285401 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F19CE76D009CDB05F16ED4B7 /* Pods_MultiTarget_Framework_iOS.framework */,
-				426037EED1986A05FF966432 /* Pods_MultiTarget_Framework_tvOS.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DDA4C4CF99D3E043CC138B93 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				106089783486BDC46AC4C6B4 /* Pods-MultiTarget_Framework_iOS.debug.xcconfig */,
-				8A1D82A004315D0581AC74B6 /* Pods-MultiTarget_Framework_iOS.release.xcconfig */,
-				19DC003667A94DD42A0078B3 /* Pods-MultiTarget_Framework_tvOS.debug.xcconfig */,
-				4773369E0DC249849BA44E77 /* Pods-MultiTarget_Framework_tvOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,12 +106,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015538881C784E6100D3FE62 /* Build configuration list for PBXNativeTarget "MultiTarget_Framework_iOS" */;
 			buildPhases = (
-				3308A4D959647EBBB061FF17 /* Check Pods Manifest.lock */,
 				0155387B1C784E6100D3FE62 /* Sources */,
 				0155387C1C784E6100D3FE62 /* Frameworks */,
 				0155387D1C784E6100D3FE62 /* Headers */,
 				0155387E1C784E6100D3FE62 /* Resources */,
-				06AFE38978F4F751DA69081F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,12 +124,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015538951C784E8C00D3FE62 /* Build configuration list for PBXNativeTarget "MultiTarget_Framework_tvOS" */;
 			buildPhases = (
-				2EC4F75FEC18F1763F60B5F2 /* Check Pods Manifest.lock */,
 				0155388B1C784E8C00D3FE62 /* Sources */,
 				0155388C1C784E8C00D3FE62 /* Frameworks */,
 				0155388D1C784E8C00D3FE62 /* Headers */,
 				0155388E1C784E8C00D3FE62 /* Resources */,
-				F1271114E9D8ACC28A2F8ADC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,69 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		06AFE38978F4F751DA69081F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MultiTarget_Framework_iOS/Pods-MultiTarget_Framework_iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EC4F75FEC18F1763F60B5F2 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3308A4D959647EBBB061FF17 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F1271114E9D8ACC28A2F8ADC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MultiTarget_Framework_tvOS/Pods-MultiTarget_Framework_tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0155387B1C784E6100D3FE62 /* Sources */ = {
@@ -391,7 +300,6 @@
 		};
 		015538891C784E6100D3FE62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106089783486BDC46AC4C6B4 /* Pods-MultiTarget_Framework_iOS.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -410,7 +318,6 @@
 		};
 		0155388A1C784E6100D3FE62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A1D82A004315D0581AC74B6 /* Pods-MultiTarget_Framework_iOS.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -429,7 +336,6 @@
 		};
 		015538961C784E8C00D3FE62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19DC003667A94DD42A0078B3 /* Pods-MultiTarget_Framework_tvOS.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -450,7 +356,6 @@
 		};
 		015538971C784E8C00D3FE62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4773369E0DC249849BA44E77 /* Pods-MultiTarget_Framework_tvOS.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
